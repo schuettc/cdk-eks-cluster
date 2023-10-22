@@ -1,10 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "@types/jest",
-      "type": "build"
-    },
-    {
       "name": "@types/node",
       "version": "^16",
       "type": "build"
@@ -21,7 +17,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^2.1.0",
+      "version": "^2.100.0",
       "type": "build"
     },
     {
@@ -46,25 +42,12 @@
       "type": "build"
     },
     {
-      "name": "jest",
-      "type": "build"
-    },
-    {
-      "name": "jest-junit",
-      "version": "^15",
-      "type": "build"
-    },
-    {
       "name": "npm-check-updates",
       "version": "^16",
       "type": "build"
     },
     {
       "name": "projen",
-      "type": "build"
-    },
-    {
-      "name": "ts-jest",
       "type": "build"
     },
     {
@@ -76,8 +59,12 @@
       "type": "build"
     },
     {
+      "name": "@aws-quickstart/eks-blueprints",
+      "type": "runtime"
+    },
+    {
       "name": "aws-cdk-lib",
-      "version": "^2.1.0",
+      "version": "^2.100.0",
       "type": "runtime"
     },
     {
